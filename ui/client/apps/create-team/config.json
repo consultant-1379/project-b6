@@ -1,0 +1,18 @@
+{
+    "script": "create-team/CreateTeam",
+    "title": "CREATE_TEAM",
+    "route": "create-team",
+    "localePath": "locale/",
+    "menu": {
+        "id": "CREATE_TEAM",
+        "data": {
+            "path": "create-team"
+        }
+    },
+    "dependencies": {
+        "@eui/component": "0.10.x",
+        "@eui/lit-component": "0.10.x",
+        "@eui/app": "0.10.x"
+    },
+    "components": {}
+}

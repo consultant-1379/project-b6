@@ -1,0 +1,34 @@
+version: '3.7'
+services:
+  frontend:
+    build: ./ui
+    restart: on-failure
+    ports:
+      - 8888:80
+    networks:
+      - sonar-mysql
+
+  sonar-jdbc:
+    build: ./tgf-kyzen-program-management
+    restart: on-failure
+    ports:
+      - '8081:8080'
+    depends_on:
+      mysqldb:
+        condition: service_healthy
+    networks:
+      - sonar-mysql
+
+  mysqldb:
+    build: ./Tables_Backup
+    networks:
+      - sonar-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=springuser
+      - MYSQL_DATABASE=kyzen
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 5s
+      retries: 10
+networks:
+  sonar-mysql: 

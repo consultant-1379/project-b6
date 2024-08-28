@@ -1,0 +1,35 @@
+{
+    "app": {
+        "options": {},
+        "menu": {
+            "data": [{
+                "id": "overall metrics",
+                "label": "Overall Metrics",
+                "active": true,
+                "data": {
+                    "path": "../apps/app-1"
+                }
+            }, {
+                "id": "teams",
+                "label": "Team Management",
+                "data": {
+                    "path": "../apps/create-team"
+                }
+            }, {
+                "id": "git",
+                "label": "Git Metrics",
+                "active": true,
+                "data": {
+                    "path": "../apps/metrics"
+                }
+            }, {
+                "id": "sonar",
+                "label": "SonarQube Metrics",
+                "active": true,
+                "data": {
+                    "path": "../apps/sonar"
+                }
+            }]
+        }
+    }
+}

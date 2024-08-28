@@ -1,0 +1,7 @@
+commit 1
+<<<<<<< HEAD
+=======
+commit 2
+commit CK
+
+>>>>>>> 70ede3011afcf453adf487c6e76925b5362fb83e

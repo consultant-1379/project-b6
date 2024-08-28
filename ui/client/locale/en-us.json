@@ -1,0 +1,18 @@
+{
+<<<<<<< HEAD
+    "CONTAINER_TITLE": "kyzen",
+    "CONTAINER_TITLE_SHORT": "kyzen",
+    "MENU_TITLE": "Menu",
+    "MENU": {
+        "metrics": "kyzen"
+    }
+=======
+  "CONTAINER_TITLE": "kyzen",
+  "CONTAINER_TITLE_SHORT": "kyzen",
+  "MENU_TITLE": "Menu",
+  "MENU": {
+    "APP_1": "Metrics",
+    "CREATE_TEAM": "New Team"
+  }
+>>>>>>> 149ddce7aa53bf64ad8927c82ba77c187055606b
+}

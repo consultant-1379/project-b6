@@ -1,0 +1,23 @@
+:host {
+    display: block;
+}
+
+.container {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #dcdcdc;
+}
+
+
+/* sample style */
+
+h1 {
+    padding: 1em;
+}
+
+h3 {
+    color: #1174e6;
+    word-break: break-all;
+    overflow: hidden;
+}

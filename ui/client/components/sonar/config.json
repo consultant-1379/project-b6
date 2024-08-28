@@ -1,0 +1,8 @@
+{
+  "script":"sonar/Sonar",
+  "id":"Sonar",
+  "data": {},
+  "dependencies":{
+    "@eui/lit-component":"0.10.x"
+  }
+}

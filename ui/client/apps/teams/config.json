@@ -1,0 +1,18 @@
+{
+    "script": "teams/Teams",
+    "title": "Team Management",
+    "route": "teams",
+    "localePath": "locale/",
+    "menu": {
+        "id": "Team Management",
+        "data": {
+            "path": "teams"
+        }
+    },
+    "dependencies": {
+        "@eui/component": "0.10.x",
+        "@eui/lit-component": "0.10.x",
+        "@eui/app": "0.10.x"
+    },
+    "components": {}
+}
